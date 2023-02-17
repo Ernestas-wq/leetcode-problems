@@ -16,6 +16,8 @@ function lengthOfLongestSubstring(s: string): number {
       // save best result
       maxLength = Math.max(right - left, maxLength)
       //   unsee everyting until duplicate
+
+      // dvdf
       while (left < right) {
         if (s[left] === s[right]) {
           left++

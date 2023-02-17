@@ -1,3 +1,11 @@
+/* 
+
+
+
+Leetcode medium question - https://leetcode.com/problems/insert-interval/
+
+*/
+
 function insert(intervals: number[][], newInterval: number[]): number[][] {
   const output: number[][] = []
 

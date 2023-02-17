@@ -9,6 +9,7 @@ function threeSum(nums: number[]): number[][] {
   const output: number[][] = []
   for (let i = 0; i < nums.length - 2; i++) {
     if (i === 0 || nums[i] !== nums[i - 1]) {
+      // [-1, -1, 0, 1, 2, 4]
       let left = i + 1
       let right = nums.length - 1
       let sum = 0 - nums[i]
