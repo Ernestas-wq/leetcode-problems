@@ -46,7 +46,7 @@ export function findMinHeightTrees(n: number, edges: number[][]): number[] {
 function fmt(n: number, edges: number[][]): number[] {
   if (n === 1) return [0]
 
-  const neighbors:Set<number>[] = []
+  const neighbors: Set<number>[] = []
   for (let i = 0; i < n; i += 1) neighbors.push(new Set<number>())
   for (const edge of edges) {
     neighbors[edge[0]].add(edge[1])
