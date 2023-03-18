@@ -10,7 +10,7 @@ class TreeNode {
 }
 /*
 Construct Binary Tree from Preorder and Inorder Traversal
-
+D
 Leetcode medium question - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 */
 export function buildTree(
